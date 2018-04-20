@@ -9,10 +9,12 @@ import static org.junit.Assert.assertEquals;
 
 public class ProductDaoTest {
     private ProductDao productDao;
+    private ProductDao hallaproductDao;
 
     @Before
     public void setup() {
-        productDao = new ProductDao();
+        productDao = new JejuProductDao();
+        hallaproductDao = new HallaProductDao();
     }
 
     @Test
@@ -35,6 +37,31 @@ public class ProductDaoTest {
         Long id = productDao.insert(product);
 
         Product insertedProduct = productDao.get(id);
+        assertEquals(insertedProduct.getId(), id);
+        assertEquals(insertedProduct.getTitle(), product.getTitle());
+        assertEquals(insertedProduct.getPrice(), product.getPrice());
+    }
+
+    @Test
+    public void hallaget() throws SQLException, ClassNotFoundException {
+        Long id = 1L;
+        String title = "제주감귤";
+        Integer price = 15000;
+
+        Product product = hallaproductDao.get(id);
+        assertEquals(id, product.getId());
+        assertEquals(title, product.getTitle());
+        assertEquals(price, product.getPrice());
+    }
+
+    @Test
+    public void hallaadd() throws SQLException, ClassNotFoundException {
+        Product product = new Product();
+        product.setTitle("시험");
+        product.setPrice(100);
+        Long id = hallaproductDao.insert(product);
+
+        Product insertedProduct = hallaproductDao.get(id);
         assertEquals(insertedProduct.getId(), id);
         assertEquals(insertedProduct.getTitle(), product.getTitle());
         assertEquals(insertedProduct.getPrice(), product.getPrice());
