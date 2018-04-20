@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bf1ced36-4854-44c5-9f43-df55da047692" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/ProductDao.java" afterPath="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/ProductDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kr/ac/jejunu/ProductDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/kr/ac/jejunu/ProductDaoTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -24,8 +25,8 @@
       <file leaf-file-name="ProductDaoTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/kr/ac/jejunu/ProductDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="456">
+              <caret line="64" column="22" lean-forward="true" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,14 +51,16 @@
       <file leaf-file-name="ProductDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/kr/ac/jejunu/ProductDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1049">
-              <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="40" />
+            <state relative-caret-position="405">
+              <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#185#186#0" expanded="true" />
                 <element signature="e#229#230#0" expanded="true" />
-                <marker date="1524206245609" expanded="true" signature="573:607" ph="select * fro... product" />
-                <marker date="1524206245609" expanded="true" signature="1994:2042" ph="INSERT INTO product... " />
+                <marker date="1524206681227" expanded="true" signature="573:607" ph="select * fro... product" />
+                <marker date="1524206681227" expanded="true" signature="2029:2077" ph="INSERT INTO product... " />
+                <marker date="1524206681227" expanded="true" signature="3394:3440" ph="UPDATE product... " />
+                <marker date="1524206681227" expanded="true" signature="4425:4455" ph="DELETE FROM product... " />
               </folding>
             </state>
           </provider>
@@ -93,6 +96,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>password</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -443,8 +451,8 @@
         <option value="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/HallaProductDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/ConnectionMaker.java" />
         <option value="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/JejuConnectionMaker.java" />
-        <option value="$PROJECT_DIR$/src/test/java/kr/ac/jejunu/ProductDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/DaoFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/kr/ac/jejunu/ProductDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/ProductDao.java" />
       </list>
     </option>
@@ -730,26 +738,11 @@
       <option name="presentableId" value="Default" />
       <updated>1524200561975</updated>
       <workItem from="1524200565126" duration="252000" />
-      <workItem from="1524203907953" duration="2200000" />
+      <workItem from="1524203907953" duration="2636000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProductDaoTest - 2018.04.20 at 15h 17m 52s.xml">
-      <configuration name="ProductDaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductDaoTest - 2018.04.20 at 15h 21m 15s.xml">
-      <configuration name="ProductDaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductDaoTest - 2018.04.20 at 15h 23m 35s.xml">
-      <configuration name="ProductDaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductDaoTest - 2018.04.20 at 15h 24m 13s.xml">
-      <configuration name="ProductDaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductDaoTest - 2018.04.20 at 15h 26m 33s.xml">
-      <configuration name="ProductDaoTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ProductDaoTest - 2018.04.20 at 15h 30m 20s.xml">
       <configuration name="ProductDaoTest" configurationId="JUnit" />
     </history-entry>
@@ -765,9 +758,24 @@
     <history-entry file="ProductDaoTest - 2018.04.20 at 15h 37m 29s.xml">
       <configuration name="ProductDaoTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ProductDaoTest - 2018.04.20 at 15h 42m 01s.xml">
+      <configuration name="ProductDaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductDaoTest - 2018.04.20 at 15h 42m 39s.xml">
+      <configuration name="ProductDaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductDaoTest - 2018.04.20 at 15h 44m 14s.xml">
+      <configuration name="ProductDaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductDaoTest - 2018.04.20 at 15h 44m 24s.xml">
+      <configuration name="ProductDaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductDaoTest - 2018.04.20 at 15h 44m 46s.xml">
+      <configuration name="ProductDaoTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2452000" />
+    <option name="totallyTimeSpent" value="2888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -834,8 +842,10 @@
             <element signature="imports" expanded="true" />
             <element signature="e#185#186#0" expanded="true" />
             <element signature="e#229#230#0" expanded="true" />
-            <marker date="1524206245609" expanded="true" signature="573:607" ph="select * fro... product" />
-            <marker date="1524206245609" expanded="true" signature="1994:2042" ph="INSERT INTO product... " />
+            <marker date="1524206681227" expanded="true" signature="573:607" ph="select * fro... product" />
+            <marker date="1524206681227" expanded="true" signature="2029:2077" ph="INSERT INTO product... " />
+            <marker date="1524206681227" expanded="true" signature="3394:3440" ph="UPDATE product... " />
+            <marker date="1524206681227" expanded="true" signature="4425:4455" ph="DELETE FROM product... " />
           </folding>
         </state>
       </provider>
@@ -888,8 +898,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/kr/ac/jejunu/ProductDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="456">
+          <caret line="64" column="22" lean-forward="true" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -898,14 +908,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kr/ac/jejunu/ProductDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1049">
-          <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="40" />
+        <state relative-caret-position="405">
+          <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#185#186#0" expanded="true" />
             <element signature="e#229#230#0" expanded="true" />
-            <marker date="1524206245609" expanded="true" signature="573:607" ph="select * fro... product" />
-            <marker date="1524206245609" expanded="true" signature="1994:2042" ph="INSERT INTO product... " />
+            <marker date="1524206681227" expanded="true" signature="573:607" ph="select * fro... product" />
+            <marker date="1524206681227" expanded="true" signature="2029:2077" ph="INSERT INTO product... " />
+            <marker date="1524206681227" expanded="true" signature="3394:3440" ph="UPDATE product... " />
+            <marker date="1524206681227" expanded="true" signature="4425:4455" ph="DELETE FROM product... " />
           </folding>
         </state>
       </provider>
